@@ -9,7 +9,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class C3P0Utils {
-    private static DataSource ds = new ComboPooledDataSource("test");
+    private static DataSource ds = new ComboPooledDataSource("c3p0-config");
 
     // 获取连接池
     public static DataSource getDataSource() {
